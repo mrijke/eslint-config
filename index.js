@@ -42,6 +42,7 @@ module.exports = {
         alphabetize: { order: "asc", caseInsensitive: true },
       },
     ],
+    "no-void": "off",
     "prettier/prettier": ["warn", { printWidth: 110 }],
     "react/function-component-definition": [
       2,
