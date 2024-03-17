@@ -8,7 +8,7 @@
     "push": "git push --follow-tags origin master && npm publish --auth-type legacy"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.com"
+    "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "7.2.0",
