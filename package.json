@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "release": "yarn standard-version"
+    "release": "yarn standard-version",
+    "push": "git push --follow-tags origin master && npm publish --auth-type legacy"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "7.2.0",
