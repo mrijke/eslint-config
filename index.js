@@ -42,7 +42,7 @@ module.exports = {
         alphabetize: { order: "asc", caseInsensitive: true },
       },
     ],
-    "no-void": "off",
+    "no-void": ["error", { allowAsStatement: true }],
     "prettier/prettier": ["warn", { printWidth: 110 }],
     "react/function-component-definition": [
       2,
