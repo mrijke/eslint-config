@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/mrijke/eslint-config/compare/v1.1.0...v1.2.0) (2024-03-23)
+
+
+### Features
+
+* move plugin-diff to ci config ([b640a13](https://github.com/mrijke/eslint-config/commit/b640a131260dcf8e1e21ac78dd8ca8fcc8af3ee9))
+
 ## [1.1.0](https://github.com/mrijke/eslint-config/compare/v1.0.3...v1.1.0) (2024-03-17)
 
 
