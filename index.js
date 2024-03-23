@@ -11,7 +11,6 @@ module.exports = {
     "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:@typescript-eslint/stylistic-type-checked",
     "plugin:react/jsx-runtime",
-    "plugin:diff/ci",
     "prettier",
   ],
   settings: {
