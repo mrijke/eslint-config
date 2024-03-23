@@ -13,3 +13,5 @@ module.exports = {
 ```
 
 For those who like ESLint a lot (and a bit of pain), extend `@mrijke/eslint-config/strict` instead.
+
+In case you want to gradually incorporate this ruleset in an existing project, extend the `@mrijke/eslint-config/ci` configuration instead. This configuration uses the [eslint-plugin-diff](https://github.com/paleite/eslint-plugin-diff) to only check for linting erors in files touched in a PR.
