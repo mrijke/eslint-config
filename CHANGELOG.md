@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/mrijke/eslint-config/compare/v1.2.0...v1.3.0) (2024-03-24)
+
+
+### Features
+
+* forgot to add ci.js ([a4612f7](https://github.com/mrijke/eslint-config/commit/a4612f73d585dfa7f09d4f7020224cf9b6f54840))
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v7.3.1 ([ded79c8](https://github.com/mrijke/eslint-config/commit/ded79c8c4b2e30188eaf5d38ebdebc9c7a74f713))
+
 ## [1.2.0](https://github.com/mrijke/eslint-config/compare/v1.1.0...v1.2.0) (2024-03-23)
 
 
