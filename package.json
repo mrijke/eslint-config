@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "publish": "npm publish --auth-type legacy"
+    "npmpublish": "npm publish --auth-type legacy"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
