@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.1](https://github.com/mrijke/eslint-config/compare/v1.4.0...v1.4.1) (2024-03-31)
+
+
+### Bug Fixes
+
+* forgot about testing library as a dep... ([4563145](https://github.com/mrijke/eslint-config/commit/4563145b1bd3e1261cd64d749f004e911e138c66))
+
 ## [1.4.0](https://github.com/mrijke/eslint-config/compare/v1.3.1...v1.4.0) (2024-03-31)
 
 
