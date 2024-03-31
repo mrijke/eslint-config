@@ -55,4 +55,34 @@ module.exports = {
     // this is just to get sorting for the members inside an import statement
     "sort-imports": ["error", { ignoreDeclarationSort: true }],
   },
+  overrides: [
+    // Jest/Vitest
+    {
+      files: ["**/*.test.{js,jsx,ts,tsx}"],
+      plugins: ["jest", "jest-dom", "testing-library"],
+      extends: [
+        "plugin:jest/recommended",
+        "plugin:jest-dom/recommended",
+        "plugin:testing-library/react",
+      ],
+      env: {
+        "jest/globals": true,
+      },
+      settings: {
+        jest: {
+          // we're using vitest which has a very similar API to jest
+          // (so the linting plugins work nicely), but it means we have to explicitly
+          // set the jest version.
+          version: 28,
+        },
+      },
+    },
+
+    // Cypress
+    {
+      files: ["cypress/**/*.ts"],
+      plugins: ["cypress"],
+      extends: ["plugin:cypress/recommended"],
+    },
+  ],
 };
