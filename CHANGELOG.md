@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.3](https://github.com/mrijke/eslint-config/compare/v1.4.2...v1.4.3) (2024-04-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jest to v28 ([3c265ab](https://github.com/mrijke/eslint-config/commit/3c265ab32da170005f24e646a19e53d70ea8e903))
+* **deps:** update typescript-eslint monorepo to v7.6.0 ([9ae363a](https://github.com/mrijke/eslint-config/commit/9ae363aacb9560243222814c16f2cdc7688842c9))
+
 ## [1.4.2](https://github.com/mrijke/eslint-config/compare/v1.4.1...v1.4.2) (2024-04-03)
 
 
