@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.4](https://github.com/mrijke/eslint-config/compare/v1.4.3...v1.4.4) (2024-06-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-cypress to v2.15.2 ([61ba26b](https://github.com/mrijke/eslint-config/commit/61ba26b1be8e8f27c83d422287d9c4ce8d11bef7))
+* **deps:** update dependency eslint-plugin-cypress to v3 ([174a69c](https://github.com/mrijke/eslint-config/commit/174a69c0451cc0afbc40d6fec8285309f853676d))
+* **deps:** update dependency eslint-plugin-jest to v28.5.0 ([88dccdc](https://github.com/mrijke/eslint-config/commit/88dccdc147d58dc5dfabca365dadfac55af5aeca))
+* **deps:** update dependency eslint-plugin-jest-dom to v5.4.0 ([010cf3f](https://github.com/mrijke/eslint-config/commit/010cf3fdf89ed25c8aa545b53f7546ca80ba18d6))
+* **deps:** update dependency eslint-plugin-react to v7.34.2 ([53de462](https://github.com/mrijke/eslint-config/commit/53de462ae26c1a62ba018af21efe183927b052eb))
+* **deps:** update dependency eslint-plugin-react-hooks to v4.6.2 ([accd50e](https://github.com/mrijke/eslint-config/commit/accd50e6c92001c8e552ba2e3ef06d4f938c598c))
+* **deps:** update dependency eslint-plugin-testing-library to v6.2.2 ([1959f3f](https://github.com/mrijke/eslint-config/commit/1959f3f33d38fa714a5dea8c5096778b63141994))
+* **deps:** update dependency prettier to v3.3.0 ([49de749](https://github.com/mrijke/eslint-config/commit/49de749acf50b53c98289e31206c53ad85d0d32b))
+* **deps:** update typescript-eslint monorepo to v7.11.0 ([44fc69c](https://github.com/mrijke/eslint-config/commit/44fc69cbdef300f9be8ae9d48af0922b18df59f7))
+
 ## [1.4.3](https://github.com/mrijke/eslint-config/compare/v1.4.2...v1.4.3) (2024-04-08)
 
 
