@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.7](https://github.com/mrijke/eslint-config/compare/v1.4.6...v1.4.7) (2024-07-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jsx-a11y to v6.9.0 ([2838bec](https://github.com/mrijke/eslint-config/commit/2838becb76703461ce2b53bd86c3aa725f38a79c))
+* **deps:** update dependency eslint-plugin-prettier to v5.2.1 ([60e08b0](https://github.com/mrijke/eslint-config/commit/60e08b0c5b53b2955bc09aed64c4a07e9ad63e97))
+* **deps:** update dependency eslint-plugin-react to v7.34.4 ([05b2c2d](https://github.com/mrijke/eslint-config/commit/05b2c2d3c9a39033d6e67336ddc5a2eb24f7b989))
+* **deps:** update dependency prettier to v3.3.3 ([67d7c34](https://github.com/mrijke/eslint-config/commit/67d7c346bfa0c9767276f59c118ae902b1bef346))
+* **deps:** update typescript-eslint monorepo to v7.16.1 ([0b8e57b](https://github.com/mrijke/eslint-config/commit/0b8e57b3b1007df9564cad281c1353b684e25e8b))
+
 ## [1.4.6](https://github.com/mrijke/eslint-config/compare/v1.4.5...v1.4.6) (2024-06-14)
 
 
