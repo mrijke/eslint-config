@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.8](https://github.com/mrijke/eslint-config/compare/v1.4.7...v1.4.8) (2024-07-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.35.0 ([8566317](https://github.com/mrijke/eslint-config/commit/8566317b06232088badb1cea5e99f47d3fb6117b))
+
 ## [1.4.7](https://github.com/mrijke/eslint-config/compare/v1.4.6...v1.4.7) (2024-07-17)
 
 
