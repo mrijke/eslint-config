@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.9](https://github.com/mrijke/eslint-config/compare/v1.4.8...v1.4.9) (2024-07-24)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v7.17.0 ([083910f](https://github.com/mrijke/eslint-config/commit/083910f9efbbe6761e049ccab45dc15df4c7eb9c))
+
 ## [1.4.8](https://github.com/mrijke/eslint-config/compare/v1.4.7...v1.4.8) (2024-07-20)
 
 
