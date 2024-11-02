@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.11](https://github.com/mrijke/eslint-config/compare/v1.4.10...v1.4.11) (2024-11-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jsx-a11y to v6.10.2 ([26db6e0](https://github.com/mrijke/eslint-config/commit/26db6e0b694f7397e793c446a63bbae25fd72420))
+
 ## [1.4.10](https://github.com/mrijke/eslint-config/compare/v1.4.9...v1.4.10) (2024-10-23)
 
 
