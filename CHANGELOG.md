@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.12](https://github.com/mrijke/eslint-config/compare/v1.4.11...v1.4.12) (2024-11-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jest to v28.9.0 ([273bea1](https://github.com/mrijke/eslint-config/commit/273bea17b9cf12555d6a1c15032f4b747158678a))
+
 ## [1.4.11](https://github.com/mrijke/eslint-config/compare/v1.4.10...v1.4.11) (2024-11-02)
 
 
