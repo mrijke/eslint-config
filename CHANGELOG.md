@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.13](https://github.com/mrijke/eslint-config/compare/v1.4.12...v1.4.13) (2024-11-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jest-dom to v5.5.0 ([30d83db](https://github.com/mrijke/eslint-config/commit/30d83db4fc579f6f219bbea6825885080dc00e95))
+* **deps:** update dependency eslint-plugin-testing-library to v6.5.0 ([7598b9b](https://github.com/mrijke/eslint-config/commit/7598b9bad2c4c479c635f5f5b5d01c6ed260ffdd))
+* **deps:** update dependency eslint-plugin-testing-library to v7 ([d97b54e](https://github.com/mrijke/eslint-config/commit/d97b54e3a6b334ef5fd86afd809674a064cb3389))
+
 ## [1.4.12](https://github.com/mrijke/eslint-config/compare/v1.4.11...v1.4.12) (2024-11-16)
 
 
