@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.14](https://github.com/mrijke/eslint-config/compare/v1.4.13...v1.4.14) (2024-12-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-import-resolver-typescript to v3.7.0 ([422130f](https://github.com/mrijke/eslint-config/commit/422130f49c00063065dd6ce0a501c58a5c49a19c))
+* **deps:** update dependency eslint-plugin-react-hooks to v5.1.0 ([755a0f4](https://github.com/mrijke/eslint-config/commit/755a0f4e0b0b59663c58d5d1625ee6295faa65f6))
+* **deps:** update dependency eslint-plugin-testing-library to v7.1.1 ([90046b4](https://github.com/mrijke/eslint-config/commit/90046b4b5378945f4f1a27360896a445a964aed4))
+* **deps:** update dependency prettier to v3.4.1 ([a100b1c](https://github.com/mrijke/eslint-config/commit/a100b1c9578424600ca017d1c8dd18c92b75a1eb))
+* **deps:** update dependency prettier to v3.4.2 ([e922631](https://github.com/mrijke/eslint-config/commit/e9226319b95ec5a5934eee062010ad1d3360c152))
+
 ## [1.4.13](https://github.com/mrijke/eslint-config/compare/v1.4.12...v1.4.13) (2024-11-24)
 
 
