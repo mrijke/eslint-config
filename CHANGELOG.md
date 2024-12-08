@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/mrijke/eslint-config/compare/v1.4.14...v1.5.0) (2024-12-08)
+
+
+### Features
+
+* remove cypress for now ([85c935f](https://github.com/mrijke/eslint-config/commit/85c935f4bc56385713c91f3cfdfa94f0f88fdbdb))
+
 ## [1.4.14](https://github.com/mrijke/eslint-config/compare/v1.4.13...v1.4.14) (2024-12-07)
 
 
