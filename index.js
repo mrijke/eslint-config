@@ -77,12 +77,5 @@ module.exports = {
         },
       },
     },
-
-    // Cypress
-    {
-      files: ["cypress/**/*.ts"],
-      plugins: ["cypress"],
-      extends: ["plugin:cypress/recommended"],
-    },
   ],
 };
