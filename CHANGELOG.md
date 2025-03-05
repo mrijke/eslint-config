@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.1](https://github.com/mrijke/eslint-config/compare/v1.5.0...v1.5.1) (2025-03-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v10 ([efa7e34](https://github.com/mrijke/eslint-config/commit/efa7e343ab56df6a21ccbe2a00b9e7ef45d7990b))
+* **deps:** update dependency eslint-import-resolver-typescript to v3.8.3 ([06154eb](https://github.com/mrijke/eslint-config/commit/06154eb2a0ef2ef33ada00f364e8a7b1bcaca86b))
+* **deps:** update dependency eslint-plugin-jest to v28.10.0 ([3a4854a](https://github.com/mrijke/eslint-config/commit/3a4854a18cf582a45d1881d3bbf5380b5cb47f90))
+* **deps:** update dependency eslint-plugin-jest to v28.11.0 ([b6d5950](https://github.com/mrijke/eslint-config/commit/b6d59503e2b58f89e52f0ea15ac075cdf2b5f0d9))
+* **deps:** update dependency eslint-plugin-prettier to v5.2.3 ([d712cd8](https://github.com/mrijke/eslint-config/commit/d712cd8ee2e40e07a269001feab1c0674d451eef))
+* **deps:** update dependency eslint-plugin-react to v7.37.4 ([e710202](https://github.com/mrijke/eslint-config/commit/e710202b0f48f0f307ab1d5150dcdc53b51d695c))
+* **deps:** update dependency prettier to v3.5.3 ([eb4325f](https://github.com/mrijke/eslint-config/commit/eb4325fafb76a0933a88a9733bf4536be8c90a29))
+
 ## [1.5.0](https://github.com/mrijke/eslint-config/compare/v1.4.14...v1.5.0) (2024-12-08)
 
 
