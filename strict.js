@@ -1,3 +1,7 @@
-module.exports = {
-  extends: ["./index.js", "plugin:@typescript-eslint/strict-type-checked"],
-};
+const tseslint = require("typescript-eslint");
+const baseConfig = require("./index.js");
+
+module.exports = tseslint.config(
+  ...baseConfig,
+  ...tseslint.configs.strictTypeChecked,
+);

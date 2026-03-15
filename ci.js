@@ -1,3 +1,7 @@
-module.exports = {
-  extends: ["./index.js", "plugin:diff/ci"],
-};
+const baseConfig = require("./index.js");
+const diffPlugin = require("eslint-plugin-diff");
+
+module.exports = [
+  ...baseConfig,
+  ...diffPlugin.configs["flat/ci"],
+];
