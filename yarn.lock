@@ -790,10 +790,10 @@ eslint-module-utils@^2.12.0:
   dependencies:
     debug "^3.2.7"
 
-eslint-plugin-diff@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-diff/-/eslint-plugin-diff-2.0.3.tgz#9de96ec722726e90ce813eb8251c0a2bd186bf6c"
-  integrity sha512-pkSwOTjPxqtplq+Ea+9i75QMdmJrItu6oxIG6EWY8bJ5veBNMUrp6Oti+5L6SW20FfjX+CmlZz+fyiWGG1POaQ==
+eslint-plugin-diff@2.1.7:
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-diff/-/eslint-plugin-diff-2.1.7.tgz#a1a86af2f659f37c9357753d2529fdc745880d48"
+  integrity sha512-F0EP5knbELQRPX7A4ogFFty+Pyru6CtUFmt52VSJ+7I84UsOj5s+BtY/ZhQFdvmPkFzKqVy+g5IHP+iiaUu/Aw==
 
 eslint-plugin-import@2.31.0:
   version "2.31.0"
