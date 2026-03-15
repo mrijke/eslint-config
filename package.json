@@ -1,6 +1,6 @@
 {
   "name": "@mrijke/eslint-config",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "main": "index.js",
   "exports": {
     ".": "./index.js",
@@ -31,7 +31,7 @@
     "typescript-eslint": "8.57.0"
   },
   "volta": {
-    "node": "22.22.1",
+    "node": "22.14.0",
     "yarn": "1.22.22"
   }
 }
