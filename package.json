@@ -1,6 +1,6 @@
 {
   "name": "@mrijke/eslint-config",
-  "version": "1.5.1",
+  "version": "2.0.0",
   "main": "index.js",
   "exports": {
     ".": "./index.js",

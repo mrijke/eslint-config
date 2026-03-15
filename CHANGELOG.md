@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/mrijke/eslint-config/compare/v1.5.1...v2.0.0) (2026-03-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* Consumers must switch from .eslintrc to eslint.config.js and spread the exported array. Import rule overrides need the `import-x/` prefix instead of `import/`.
+
+### Features
+
+* migrate to ESLint v9 flat config ([#97](https://github.com/mrijke/eslint-config/issues/97)) ([cf69884](https://github.com/mrijke/eslint-config/commit/cf698840980acde57c23fe318abf879d4485421c))
+
 ## [1.5.1](https://github.com/mrijke/eslint-config/compare/v1.5.0...v1.5.1) (2025-03-05)
 
 
