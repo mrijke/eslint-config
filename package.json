@@ -2,6 +2,11 @@
   "name": "@mrijke/eslint-config",
   "version": "1.5.1",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./strict": "./strict.js",
+    "./ci": "./ci.js"
+  },
   "license": "MIT",
   "scripts": {
     "npmpublish": "npm publish --auth-type legacy"
@@ -10,23 +15,20 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "7.18.0",
-    "@typescript-eslint/parser": "7.18.0",
-    "eslint": "8.57.1",
-    "eslint-config-airbnb": "19.0.4",
-    "eslint-config-airbnb-typescript": "18.0.0",
-    "eslint-config-prettier": "10.0.2",
-    "eslint-import-resolver-typescript": "3.8.3",
-    "eslint-plugin-diff": "2.0.3",
-    "eslint-plugin-import": "2.31.0",
-    "eslint-plugin-jest": "28.11.0",
+    "eslint": "9.39.4",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-diff": "2.1.7",
+    "eslint-plugin-import-x": "4.16.2",
+    "eslint-plugin-jest": "29.15.0",
     "eslint-plugin-jest-dom": "5.5.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
-    "eslint-plugin-prettier": "5.2.3",
-    "eslint-plugin-react": "7.37.4",
-    "eslint-plugin-react-hooks": "5.1.0",
-    "eslint-plugin-testing-library": "7.1.1",
-    "prettier": "3.5.3"
+    "eslint-plugin-prettier": "5.5.5",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "5.2.0",
+    "eslint-plugin-testing-library": "7.16.0",
+    "globals": "17.4.0",
+    "prettier": "3.5.3",
+    "typescript-eslint": "8.57.0"
   },
   "volta": {
     "node": "22.14.0",
