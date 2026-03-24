@@ -1,6 +1,11 @@
 {
   "name": "@mrijke/eslint-config",
   "version": "2.0.1",
+  "files": [
+    "index.js",
+    "strict.js",
+    "ci.js"
+  ],
   "main": "index.js",
   "exports": {
     ".": "./index.js",
@@ -12,7 +17,8 @@
     "npmpublish": "npm publish --auth-type legacy"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "dependencies": {
     "eslint": "9.39.4",
