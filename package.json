@@ -13,6 +13,10 @@
     "./ci": "./ci.js"
   },
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/mrijke/eslint-config",
+    "type": "git"
+  },
   "scripts": {
     "npmpublish": "npm publish --auth-type legacy"
   },
