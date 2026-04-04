@@ -25,7 +25,7 @@
     "access": "public"
   },
   "dependencies": {
-    "eslint": "9.39.4",
+    "eslint": "10.2.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-diff": "2.1.7",
     "eslint-plugin-import-x": "4.16.2",
