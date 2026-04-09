@@ -2,15 +2,15 @@
   "name": "@mrijke/eslint-config",
   "version": "2.0.3",
   "files": [
-    "index.js",
-    "strict.js",
-    "ci.js"
+    "index.mjs",
+    "strict.mjs",
+    "ci.mjs"
   ],
-  "main": "index.js",
+  "main": "index.mjs",
   "exports": {
-    ".": "./index.js",
-    "./strict": "./strict.js",
-    "./ci": "./ci.js"
+    ".": "./index.mjs",
+    "./strict": "./strict.mjs",
+    "./ci": "./ci.mjs"
   },
   "license": "MIT",
   "repository": {
@@ -25,6 +25,7 @@
     "access": "public"
   },
   "dependencies": {
+    "@eslint/js": "9.39.4",
     "eslint": "9.39.4",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-diff": "2.1.7",

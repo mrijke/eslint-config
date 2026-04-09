@@ -1,16 +1,19 @@
-const tseslint = require("typescript-eslint");
-const reactPlugin = require("eslint-plugin-react");
-const reactHooksPlugin = require("eslint-plugin-react-hooks");
-const jsxA11yPlugin = require("eslint-plugin-jsx-a11y");
-const importXPlugin = require("eslint-plugin-import-x");
-const prettierRecommended = require("eslint-plugin-prettier/recommended");
-const jestPlugin = require("eslint-plugin-jest");
-const jestDomPlugin = require("eslint-plugin-jest-dom");
-const testingLibraryPlugin = require("eslint-plugin-testing-library");
-const globals = require("globals");
+import eslint from "@eslint/js";
+import { defineConfig } from "eslint/config";
+import tseslint from "typescript-eslint";
+import reactPlugin from "eslint-plugin-react";
+import reactHooksPlugin from "eslint-plugin-react-hooks";
+import jsxA11yPlugin from "eslint-plugin-jsx-a11y";
+import importXPlugin from "eslint-plugin-import-x";
+import prettierRecommended from "eslint-plugin-prettier/recommended";
+import jestPlugin from "eslint-plugin-jest";
+import jestDomPlugin from "eslint-plugin-jest-dom";
+import testingLibraryPlugin from "eslint-plugin-testing-library";
+import globals from "globals";
 
-module.exports = tseslint.config(
-  // Layer 1: TypeScript base with type-checked rules
+export default defineConfig(
+  // Layer 1: JS+TypeScript base with type-checked rules
+  ...eslint.configs.recommended,
   ...tseslint.configs.recommendedTypeChecked,
   ...tseslint.configs.stylisticTypeChecked,
 
@@ -155,16 +158,54 @@ module.exports = tseslint.config(
       "no-proto": "error",
       "no-restricted-properties": [
         "error",
-        { object: "arguments", property: "callee", message: "arguments.callee is deprecated" },
-        { object: "global", property: "isFinite", message: "Please use Number.isFinite instead" },
-        { object: "self", property: "isFinite", message: "Please use Number.isFinite instead" },
-        { object: "window", property: "isFinite", message: "Please use Number.isFinite instead" },
-        { object: "global", property: "isNaN", message: "Please use Number.isNaN instead" },
-        { object: "self", property: "isNaN", message: "Please use Number.isNaN instead" },
-        { object: "window", property: "isNaN", message: "Please use Number.isNaN instead" },
-        { property: "__defineGetter__", message: "Please use Object.defineProperty instead." },
-        { property: "__defineSetter__", message: "Please use Object.defineProperty instead." },
-        { object: "Math", property: "pow", message: "Use the exponentiation operator (**) instead." },
+        {
+          object: "arguments",
+          property: "callee",
+          message: "arguments.callee is deprecated",
+        },
+        {
+          object: "global",
+          property: "isFinite",
+          message: "Please use Number.isFinite instead",
+        },
+        {
+          object: "self",
+          property: "isFinite",
+          message: "Please use Number.isFinite instead",
+        },
+        {
+          object: "window",
+          property: "isFinite",
+          message: "Please use Number.isFinite instead",
+        },
+        {
+          object: "global",
+          property: "isNaN",
+          message: "Please use Number.isNaN instead",
+        },
+        {
+          object: "self",
+          property: "isNaN",
+          message: "Please use Number.isNaN instead",
+        },
+        {
+          object: "window",
+          property: "isNaN",
+          message: "Please use Number.isNaN instead",
+        },
+        {
+          property: "__defineGetter__",
+          message: "Please use Object.defineProperty instead.",
+        },
+        {
+          property: "__defineSetter__",
+          message: "Please use Object.defineProperty instead.",
+        },
+        {
+          object: "Math",
+          property: "pow",
+          message: "Use the exponentiation operator (**) instead.",
+        },
       ],
       "no-return-assign": ["error", "always"],
       "no-script-url": "error",
@@ -186,8 +227,15 @@ module.exports = tseslint.config(
 
       // ES6
       "prefer-template": "error",
-      "object-shorthand": ["error", "always", { ignoreConstructors: false, avoidQuotes: true }],
-      "prefer-arrow-callback": ["error", { allowNamedFunctions: false, allowUnboundThis: true }],
+      "object-shorthand": [
+        "error",
+        "always",
+        { ignoreConstructors: false, avoidQuotes: true },
+      ],
+      "prefer-arrow-callback": [
+        "error",
+        { allowNamedFunctions: false, allowUnboundThis: true },
+      ],
       "@typescript-eslint/prefer-destructuring": [
         "error",
         {
@@ -198,14 +246,20 @@ module.exports = tseslint.config(
       ],
       "no-useless-computed-key": "error",
       "no-useless-rename": "error",
-      "no-restricted-exports": ["error", { restrictedNamedExports: ["default", "then"] }],
+      "no-restricted-exports": [
+        "error",
+        { restrictedNamedExports: ["default", "then"] },
+      ],
 
       // Error prevention
       "no-await-in-loop": "error",
       "no-console": "warn",
       "no-promise-executor-return": "error",
       "no-unreachable-loop": "error",
-      "no-unsafe-optional-chaining": ["error", { disallowArithmeticOperators: true }],
+      "no-unsafe-optional-chaining": [
+        "error",
+        { disallowArithmeticOperators: true },
+      ],
       "no-unused-private-class-members": "error",
     },
   },
@@ -230,7 +284,10 @@ module.exports = tseslint.config(
       "react/jsx-pascal-case": ["error", { allowAllCaps: true }],
       "react/void-dom-elements-no-children": "error",
       "react/jsx-boolean-value": ["error", "never"],
-      "react/jsx-curly-brace-presence": ["error", { props: "never", children: "never" }],
+      "react/jsx-curly-brace-presence": [
+        "error",
+        { props: "never", children: "never" },
+      ],
       "react/jsx-fragments": ["error", "syntax"],
     },
   },
