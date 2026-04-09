@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/mrijke/eslint-config/compare/v2.0.3...v2.1.0) (2026-04-09)
+
+
+### Features
+
+* refactor to mjs and use @eslint/js recommended too ([0cc2b83](https://github.com/mrijke/eslint-config/commit/0cc2b837b05841344efb0ff15b3331f7fe8318be))
+
 ## [2.0.3](https://github.com/mrijke/eslint-config/compare/v2.0.2...v2.0.3) (2026-04-08)
 
 
