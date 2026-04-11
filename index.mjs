@@ -1,5 +1,4 @@
 import eslint from "@eslint/js";
-import { defineConfig } from "eslint/config";
 import tseslint from "typescript-eslint";
 import reactPlugin from "eslint-plugin-react";
 import reactHooksPlugin from "eslint-plugin-react-hooks";
@@ -12,7 +11,7 @@ import testingLibraryPlugin from "eslint-plugin-testing-library";
 import globals from "globals";
 import reactRefresh from "eslint-plugin-react-refresh";
 
-export default defineConfig(
+export default [
   // Layer 1: JS+TypeScript base with type-checked rules
   eslint.configs.recommended,
   ...tseslint.configs.recommendedTypeChecked,
@@ -347,4 +346,4 @@ export default defineConfig(
       },
     },
   },
-);
+];
