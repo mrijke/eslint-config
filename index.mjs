@@ -10,6 +10,7 @@ import jestPlugin from "eslint-plugin-jest";
 import jestDomPlugin from "eslint-plugin-jest-dom";
 import testingLibraryPlugin from "eslint-plugin-testing-library";
 import globals from "globals";
+import reactRefresh from "eslint-plugin-react-refresh";
 
 export default defineConfig(
   // Layer 1: JS+TypeScript base with type-checked rules
@@ -265,6 +266,7 @@ export default defineConfig(
   },
 
   // Layer 7: React rules
+  reactRefresh.configs.vite,
   {
     rules: {
       "react/function-component-definition": [
@@ -289,6 +291,21 @@ export default defineConfig(
         { props: "never", children: "never" },
       ],
       "react/jsx-fragments": ["error", "syntax"],
+      "react-refresh/only-export-components": [
+        "warn",
+        {
+          allowConstantExport: true,
+          allowExportNames: [
+            "loader",
+            "action",
+            "meta",
+            "links",
+            "headers",
+            "handle",
+            "middleware",
+          ],
+        },
+      ],
     },
   },
 
