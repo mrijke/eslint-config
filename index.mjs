@@ -13,7 +13,7 @@ import globals from "globals";
 
 export default defineConfig(
   // Layer 1: JS+TypeScript base with type-checked rules
-  ...eslint.configs.recommended,
+  eslint.configs.recommended,
   ...tseslint.configs.recommendedTypeChecked,
   ...tseslint.configs.stylisticTypeChecked,
 
