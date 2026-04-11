@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/mrijke/eslint-config/compare/v2.1.0...v2.2.0) (2026-04-11)
+
+
+### Features
+
+* add react-refresh ([e5a0569](https://github.com/mrijke/eslint-config/commit/e5a056904ea365b3316b2a525f2c6f188235bcb9))
+* add react-router specific overrides ([44a05c1](https://github.com/mrijke/eslint-config/commit/44a05c1f388eae72bc270f19fca2ade45ce273d9))
+
+
+### Bug Fixes
+
+* Add eslint-import-resolver-typescript ([68a633a](https://github.com/mrijke/eslint-config/commit/68a633a8218d9ca748207e871741a45e879cdfad))
+* **deps:** update dependency eslint-plugin-jest to v29.15.2 ([#112](https://github.com/mrijke/eslint-config/issues/112)) ([90a92f6](https://github.com/mrijke/eslint-config/commit/90a92f6a5d87ea7fdda222f7cc8ddb56960075d1))
+* **deps:** update dependency prettier to v3.8.2 ([#113](https://github.com/mrijke/eslint-config/issues/113)) ([44b8a23](https://github.com/mrijke/eslint-config/commit/44b8a23f25a709fc1fc1737cd6fd158029c0acfe))
+
 ## [2.1.0](https://github.com/mrijke/eslint-config/compare/v2.0.3...v2.1.0) (2026-04-09)
 
 
