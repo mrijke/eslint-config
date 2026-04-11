@@ -309,15 +309,7 @@ export default defineConfig(
     },
   },
 
-  // Layer 8: react-router specific rules
-  {
-    rules: {
-      // React Router throws Response objects for redirects and errors
-      "@typescript-eslint/only-throw-error": "off",
-    },
-  },
-
-  // Layer 9: Prettier (must be near last to override formatting rules)
+  // Layer 8: Prettier (must be near last to override formatting rules)
   prettierRecommended,
   {
     rules: {
@@ -325,7 +317,7 @@ export default defineConfig(
     },
   },
 
-  // Layer 10: Miscellaneous
+  // Layer 9: Miscellaneous
   {
     rules: {
       "sort-imports": ["error", { ignoreDeclarationSort: true }],
@@ -333,7 +325,7 @@ export default defineConfig(
     },
   },
 
-  // Layer 11: Test file overrides
+  // Layer 10: Test file overrides
   {
     files: ["**/*.test.{js,jsx,ts,tsx}"],
     plugins: {
