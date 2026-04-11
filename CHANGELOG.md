@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/mrijke/eslint-config/compare/v2.2.2...v2.3.0) (2026-04-11)
+
+
+### Features
+
+* add global ignores ([bdc9c7c](https://github.com/mrijke/eslint-config/commit/bdc9c7c69ce1e61ea479deec80148623731d8f42))
+
 ## [2.2.2](https://github.com/mrijke/eslint-config/compare/v2.2.1...v2.2.2) (2026-04-11)
 
 
