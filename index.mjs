@@ -10,8 +10,16 @@ import jestDomPlugin from "eslint-plugin-jest-dom";
 import testingLibraryPlugin from "eslint-plugin-testing-library";
 import globals from "globals";
 import reactRefresh from "eslint-plugin-react-refresh";
+import { globalIgnores } from "eslint/config";
 
 export default [
+  globalIgnores([
+    "dist",
+    "build",
+    ".react-router",
+    "coverage",
+    "**/generated/**",
+  ]),
   // Layer 1: JS+TypeScript base with type-checked rules
   eslint.configs.recommended,
   ...tseslint.configs.recommendedTypeChecked,
