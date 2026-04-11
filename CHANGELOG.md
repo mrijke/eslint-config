@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.1](https://github.com/mrijke/eslint-config/compare/v2.2.0...v2.2.1) (2026-04-11)
+
+
+### Bug Fixes
+
+* only-throw-error override goes in strict ([9f660e8](https://github.com/mrijke/eslint-config/commit/9f660e80537537ffaff3364eda50aff5720431c4))
+
 ## [2.2.0](https://github.com/mrijke/eslint-config/compare/v2.1.0...v2.2.0) (2026-04-11)
 
 
