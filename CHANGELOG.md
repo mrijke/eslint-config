@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.1](https://github.com/mrijke/eslint-config/compare/v2.3.0...v2.3.1) (2026-04-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency globals to v17.5.0 ([#118](https://github.com/mrijke/eslint-config/issues/118)) ([9ebb938](https://github.com/mrijke/eslint-config/commit/9ebb9381978a3d89115b7025790150d4111c34a9))
+* no-void override should go in strict.mjs ([3f05b4c](https://github.com/mrijke/eslint-config/commit/3f05b4cc423107404e43cdad49610f7f6a1e7a61))
+
 ## [2.3.0](https://github.com/mrijke/eslint-config/compare/v2.2.2...v2.3.0) (2026-04-11)
 
 
