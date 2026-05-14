@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.3](https://github.com/mrijke/eslint-config/compare/v2.3.2...v2.3.3) (2026-05-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency typescript-eslint to v8.59.3 ([0dc50f6](https://github.com/mrijke/eslint-config/commit/0dc50f6c00e524d1b9cc8b3e32bce1d23c9cb054))
+
 ## [2.3.2](https://github.com/mrijke/eslint-config/compare/v2.3.1...v2.3.2) (2026-05-03)
 
 
