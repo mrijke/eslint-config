@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.4](https://github.com/mrijke/eslint-config/compare/v2.3.3...v2.3.4) (2026-06-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-import-resolver-typescript to v4.4.5 ([6bbc8f2](https://github.com/mrijke/eslint-config/commit/6bbc8f2b970f949270dbcc18073ef2db7f000790))
+* **deps:** update dependency eslint-plugin-import-x to v4.17.0 ([afddb03](https://github.com/mrijke/eslint-config/commit/afddb0378be71c35575767932e7b906685bfbe91))
+* **deps:** update dependency eslint-plugin-prettier to v5.5.6 ([a655bd0](https://github.com/mrijke/eslint-config/commit/a655bd02db47f070f7703fbe1dde7302cf02f3b1))
+* **deps:** update dependency eslint-plugin-react-refresh to v0.5.3 ([16c78d8](https://github.com/mrijke/eslint-config/commit/16c78d8caefc17b6ce118469b102442289cecef9))
+* **deps:** update dependency globals to v17.7.0 ([1ccf17b](https://github.com/mrijke/eslint-config/commit/1ccf17bbaa0df57e4f3b208f722bf8cb6edfcbca))
+* **deps:** update dependency prettier to v3.8.4 ([63545f2](https://github.com/mrijke/eslint-config/commit/63545f2ebf9661be76d9951be6d280d1d83c0600))
+* **deps:** update typescript-eslint monorepo ([7aa1bfd](https://github.com/mrijke/eslint-config/commit/7aa1bfdc3e7fbc98464aa051fa06d97b9671f7b2))
+
 ## [2.3.3](https://github.com/mrijke/eslint-config/compare/v2.3.2...v2.3.3) (2026-05-14)
 
 
