@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.5](https://github.com/mrijke/eslint-config/compare/v2.3.4...v2.3.5) (2026-07-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import-x to v4.17.1 ([190c13e](https://github.com/mrijke/eslint-config/commit/190c13e0cee1f9471d0b72b59f61bfec3e81687c))
+* **deps:** update dependency eslint-plugin-jest to v29.15.4 ([57de46d](https://github.com/mrijke/eslint-config/commit/57de46dcd3692a2f77c490e0f795b60f42b080d2))
+* **deps:** update dependency prettier to v3.9.4 ([28d8f8a](https://github.com/mrijke/eslint-config/commit/28d8f8a5f1ed414075d0d7516e8e95a49d43d1d9))
+* **deps:** update dependency typescript-eslint to v8.62.1 ([42010da](https://github.com/mrijke/eslint-config/commit/42010da9d29818d805e22cb67d89a7a4a2a569bb))
+
 ## [2.3.4](https://github.com/mrijke/eslint-config/compare/v2.3.3...v2.3.4) (2026-06-24)
 
 
