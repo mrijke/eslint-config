@@ -1,6 +1,6 @@
 {
   "name": "@mrijke/eslint-config",
-  "version": "2.3.5",
+  "version": "2.3.6",
   "files": [
     "index.mjs",
     "strict.mjs",
