@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.7](https://github.com/mrijke/eslint-config/compare/v2.3.6...v2.3.7) (2026-11-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import-x to v4.18.1 ([bf2bd00](https://github.com/mrijke/eslint-config/commit/bf2bd0070d28d52dead96c694b2e7f9fa1da94e4))
+* **deps:** update dependency eslint-plugin-jest to v29.17.1 ([a8f73c2](https://github.com/mrijke/eslint-config/commit/a8f73c201716a1c493fb0a62291453bdd383b0aa))
+* **deps:** update dependency eslint-plugin-jest-dom to v5.11.0 ([e088dd9](https://github.com/mrijke/eslint-config/commit/e088dd9a764ee930198573076d813a4b1f497cbd))
+* **deps:** update dependency eslint-plugin-prettier to v5.5.7 ([5b6d0da](https://github.com/mrijke/eslint-config/commit/5b6d0dabb7803e50e91adcb68490a36d2c62c472))
+* **deps:** update dependency eslint-plugin-react-refresh to v0.5.8 ([009c4fc](https://github.com/mrijke/eslint-config/commit/009c4fc7a7a117840bafa0a214053ab7a036bbfa))
+* **deps:** update dependency eslint-plugin-testing-library to v7.16.3 ([6b473ac](https://github.com/mrijke/eslint-config/commit/6b473ac8fb103865228da87334a8c109c7cd2d49))
+* **deps:** update dependency globals to v17.14.0 ([2781e77](https://github.com/mrijke/eslint-config/commit/2781e7755d5f356097b999074a97571d22aadb03))
+* **deps:** update dependency prettier to v3.10.1 ([690b32f](https://github.com/mrijke/eslint-config/commit/690b32f7164eaf4e75962651d67498d870370949))
+* **deps:** update dependency typescript-eslint to v8.74.0 ([3ee7eac](https://github.com/mrijke/eslint-config/commit/3ee7eac769d911d74f4e6ee9033a2e29367d38de))
+
 ## [2.3.6](https://github.com/mrijke/eslint-config/compare/v2.3.5...v2.3.6) (2026-07-21)
 
 
